@@ -1,7 +1,7 @@
 <?php
 
 //1.Controllerde
-DB::table('articles')->select()->paginate(10);
+articles::paginate(10);
 
 //2.viewda
 {!! $data->links() !!}
