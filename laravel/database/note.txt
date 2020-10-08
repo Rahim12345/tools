@@ -1,0 +1,1 @@
+1.migrate etmezden evvel mysql engine InnoDB ye sazla
