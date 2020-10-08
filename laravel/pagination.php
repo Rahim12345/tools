@@ -1,7 +1,7 @@
 <?php
 
 //1.Controllerde
-articles::paginate(10);
+articles::paginate(10)->onEachSide(5);
 
 //2.viewda
 {!! $data->links() !!}
