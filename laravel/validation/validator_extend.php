@@ -1,5 +1,5 @@
 <?php
-//Controllerdə və ya App\Providers\AppServiceProvider.php də 
+//1)Controllerdə və ya App\Providers\AppServiceProvider.php də 
 /**
  *      public function boot()
  *      {
@@ -9,5 +9,11 @@
  *          });
  *      }
  */
+
+ //2)Uyğun dil paketində
+ /**
+  * 'alphaspace'           => '  :attribute üçün yalnız hərf və boşluqdan istifadə edə bilərsiniz',
+  * kimi tanımlamaq
+  */
  
 
