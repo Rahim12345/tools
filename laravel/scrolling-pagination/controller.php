@@ -5,5 +5,5 @@ public function index()
     ->orderBy('created_at','desc')
     ->paginate(6);
 
-    return view('blog.index', compact('posts'));
+    return view('index', compact('posts'));
 }
