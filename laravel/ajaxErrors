@@ -1,0 +1,11 @@
+error: function(myErrors)
+            {
+                var myerr = '';
+                $.each(myErrors.responseJSON.errors, function (key, item)
+                {
+                    myerr += item;
+                });
+
+                alert(myerr);
+
+            }
