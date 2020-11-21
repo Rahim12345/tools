@@ -1,0 +1,11 @@
+1) php --ini ile 
+Configuration File (php.ini) Path: C:\Windows
+Loaded Configuration File:         C:\wamp64\bin\php\php7.3.12\php.ini
+Scan for additional .ini files in: (none)
+Additional .ini files parsed:      (none)
+
+faylinin yerini tapiriq
+
+2) C:\wamp64\bin\php\php7.3.12\php.ini fayla aciriq
+memory_limit = -1
+ kimi deyisirik sistemi yeniden basladiriq
