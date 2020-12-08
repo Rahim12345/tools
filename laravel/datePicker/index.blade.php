@@ -35,7 +35,7 @@
         {
 
             $('input[name="daterange"]').daterangepicker({
-                    startDate: moment().subtract(30 ,'days'),
+                    startDate: moment().subtract(7 ,'days'),
                     endDate: moment(),
                     minDate: '01/01/2018',
                     maxDate: {dateFormat:"dd/mm/yy"},
