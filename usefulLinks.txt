@@ -1,3 +1,6 @@
 //laravel tutorial 
 https://www.youtube.com/watch?v=EU7PRmCpx-0&list=PLillGF-RfqbYhQsN5WMXy6VsDMKGadrJ-&index=1
 
+//laravel livewire datatable
+https://reposhub.com/php/web-frameworks/kdion4891-laravel-livewire-tables.html
+
