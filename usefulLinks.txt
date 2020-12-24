@@ -9,3 +9,6 @@ https://www.itsolutionstuff.com/post/how-to-add-action-button-in-laravel-yajra-d
 
 //Yajra docs
 https://www.itsolutionstuff.com/post/laravel-yajra-datatables-export-to-excel-csv-button-exampleexample.html
+
+//MySQL #1140 - Mixing of GROUP columns
+https://stackoverflow.com/questions/1244169/mysql-1140-mixing-of-group-columns/64009446#64009446
