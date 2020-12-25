@@ -1,3 +1,14 @@
 //laravel tutorial 
 https://www.youtube.com/watch?v=EU7PRmCpx-0&list=PLillGF-RfqbYhQsN5WMXy6VsDMKGadrJ-&index=1
 
+//laravel livewire datatable
+https://reposhub.com/php/web-frameworks/kdion4891-laravel-livewire-tables.html
+
+//Yajra action
+https://www.itsolutionstuff.com/post/how-to-add-action-button-in-laravel-yajra-datatablesexample.html
+
+//Yajra docs
+https://www.itsolutionstuff.com/post/laravel-yajra-datatables-export-to-excel-csv-button-exampleexample.html
+
+//MySQL #1140 - Mixing of GROUP columns
+https://stackoverflow.com/questions/1244169/mysql-1140-mixing-of-group-columns/64009446#64009446
