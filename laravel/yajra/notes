@@ -1,0 +1,2 @@
+//editing then reload without refreshing
+$('#tableID').DataTable().ajax.reload(null,false);
