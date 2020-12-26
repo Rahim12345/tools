@@ -1,3 +1,4 @@
+<?php
 $supporters = Supporter::withCount('feedbackRelation')
                         ->withSum('voteRelation','vote')
                         ->get();
