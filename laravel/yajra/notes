@@ -1,2 +1,6 @@
 //editing then reload without refreshing
 $('#tableID').DataTable().ajax.reload(null,false);
+
+
+//Relation Column get
+https://www.nicesnippets.com/blog/laravel-datatables-with-relationship-example
