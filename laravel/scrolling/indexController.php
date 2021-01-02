@@ -32,13 +32,10 @@ class homePageController extends Controller
             ]);
 
         }
-
         return response()->json([
             'last_id'   => Scrolling::orderBy('id','desc')->first()->id,
             'item'      => '',
         ]);
-
-
 
     }
 }
