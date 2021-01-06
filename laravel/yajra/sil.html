@@ -1,2 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
 
+    <script>
+        //Loading function
+        function loadMore(feedbackID,hiddenPage,dataN)
+        {
+            $.ajax({
+                type:'POST',
+                data:{feedbackID:feedbackID,hiddenPage:hiddenPage,dataN:dataN},
+                url:'{!! route('getInitial') !!}',
+                success:function (response)
+                {
+                    if (response.newPage === 2)
+                    {
+                        $('#idea-list option').remove();
+                    }
+                    $("#idea-list").append(response.ideas);
+                    $("#hiddenPage").val(response.newPage);
+                    $("#dataN").val(response.dataN);
 
+                    $('#idea-list').multiselect({
+                        includeSelectAllOption: true,
+                        enableFiltering: true,
+                        nonSelectedText: "Select an idea",
+                        allSelectedText: "Selected all",
+                        maxHeight:200,
+                        buttonWidth: '100%',
+                        numberDisplayed: 1,
+                        allSelectedText: 'No option left ...',
+                        filterPlaceholder: 'Search idea',
+                    }).multiselect('rebuild');
+
+                    //search box fixed
+                    $('.multiselect-filter').addClass('sticky-top');
+                },
+                error: function()
+                {
+                    alert('Server not responding');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
