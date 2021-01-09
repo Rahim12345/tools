@@ -31,7 +31,6 @@ class Skillsform extends Component
                 'updated_at'=>Carbon::now(),
             ]
         );
-        $this->dispatchBrowserEvent('closeModal');
 
         $this->emit('refreshParent');
     }

@@ -4,7 +4,10 @@
     <div  class="modal fade" id="skillModal" tabindex="-1" role="dialog" aria-labelledby="skillModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
+                
+                //Child
                 @livewire('skillsform')
+
             </div>
         </div>
     </div>
