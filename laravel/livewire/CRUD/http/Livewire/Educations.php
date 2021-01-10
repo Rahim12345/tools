@@ -87,18 +87,7 @@ class Educations extends Component
 
         $this->resetInputFields();
     }
-
-
-
-
-
-
-
-
-
-
-
-
+    
     public function render()
     {
         return view('livewire.educations',[
