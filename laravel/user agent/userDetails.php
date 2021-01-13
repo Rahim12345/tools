@@ -28,7 +28,7 @@ echo "ISP: $isp ($city, $region, $country)<br>";
 
 //Daha cox ==============>
 function getIpInfo($ip = '') {
-    $ipinfo = file_get_contents("https://ipinfo.io/212.47.141.95");
+    $ipinfo = file_get_contents("https://ipinfo.io/".$_SERVER['REMOTE_ADDR']);
     $ipinfo_json = json_decode($ipinfo, true);
     return $ipinfo_json;
 }
