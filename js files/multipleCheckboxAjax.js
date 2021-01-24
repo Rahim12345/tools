@@ -19,3 +19,5 @@ $('#saveBoard').click(function () {
         }
     });
 });
+
+// show more https://www.webslesson.info/2016/06/insert-checkbox-values-using-ajax-jquery-in-php.html
