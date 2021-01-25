@@ -1,4 +1,10 @@
 <?php
+
+/**
+* Everything about With 
+*https://morioh.com/p/2d643ea681ec
+*/
+
 $supporters = Supporter::withCount('feedbackRelation')
                         ->withSum('voteRelation','vote')
                         ->get();
