@@ -27,20 +27,9 @@ Dashboard
 
 @section('js')
 <script>
-    var modal = $('#blogAdd');
-    modal.removeAttr('tabindex');
-
-    modal.focusout(function(){
-        $(this).css({'position':'relative'});
-    });
-
-    modal.focusin(function(){
-        $(this).css({'position':'fixed'});
-    });
-</script>
-<script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
-
-<script>
+    $(document).on({'show.bs.modal': function () {
+        $(this).removeAttr('tabindex');
+    } }, '.modal');
     CKEDITOR.replace( 'blogEn' );
     CKEDITOR.replace( 'blogAz' );
 </script>
